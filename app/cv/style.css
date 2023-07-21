@@ -17,6 +17,9 @@
   height: 100%;
   width: calc(100% - 11.71875vw);
 }
+.cv__container .reveal {
+  width: 100%;
+}
 .cv__container .headline {
   color: #fff;
   font-size: 51px;
@@ -24,7 +27,22 @@
   font-weight: 400;
   line-height: 51px;
   letter-spacing: -2.04px;
-  width: 658px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cv__container .headline .head_left {
+  width: calc(50% - 50px);
+  display: block;
+}
+.cv__container .headline .head_right {
+  width: calc(50% - 50px);
+}
+.cv__container .headline .head_right .reveal {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 .cv__container .headline strong {
   text-decoration: underline;

@@ -12,6 +12,7 @@ import {
   faDribbble,
 } from "@fortawesome/free-brands-svg-icons";
 import Reveal from "@/components/Reveal";
+import Button from "@/components/Button";
 function cv() {
   return (
     <ReactLenis root>
@@ -21,7 +22,10 @@ function cv() {
             delay=".1"
             component={
               <div className="headline">
-                CREATIVE DESIGNER PASSION AND <strong>EXPERIENCE.</strong>
+
+                <div className="head_left">CREATIVE DEVELOPER PASSION AND <strong>EXPERIENCE.</strong></div>
+
+                <div className="head_right"><Button text="download cv"/></div>
               </div>
             }
           />

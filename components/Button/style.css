@@ -1,34 +1,25 @@
 .btn_default {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  width: 333.95px;
+  justify-content: center;
   height: 90px;
   color: #fff;
   background: transparent;
   transition: all ease 0.2s;
   text-align: center;
   text-transform: capitalize;
-  padding: 0 20px;
+  padding: 0 4vw;
   border-radius: 100px;
   border: 1px solid #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-family: Inter;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 42px; /* 190.909% */
   text-transform: uppercase;
   cursor: pointer;
-}
-.btn_default span {
-  margin-right: 10px;
+  box-sizing: initial;
 }
 .btn_default svg {
   fill: #fff;
+  margin-left: 5px;
 }
 .btn_default:hover {
   background-color: #fff;
@@ -64,12 +55,4 @@
 .secundary:hover {
   background-color: #000;
   color: #fff;
-}
-
-@media (min-width: 0px) and (max-width: 600px) {
-  .btn_default {
-    border-radius: 2vw;
-    font-size: 3.5vw;
-    height: 10.5vw;
-  }
 }/*# sourceMappingURL=style.css.map */

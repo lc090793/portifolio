@@ -9,9 +9,7 @@ function Button(props) {
     <Reveal
       component={
         <button className={`btn_default ${props.secundary} ${inter.className}`}>
-          <span>
           {props.text}
-          </span>
          
           <svg
             width="15"
