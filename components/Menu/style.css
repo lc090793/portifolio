@@ -1,0 +1,80 @@
+.menu {
+  height: 70px;
+  width: 100%;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  position: fixed;
+  z-index: 9999;
+}
+.menu .menu__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(100% - 11.71875vw);
+}
+.menu .menu__container a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu .menu__container .logo {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 133.333% */
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu .menu__container .logo .initials {
+  height: 30px;
+  width: 30px;
+  background: #fff;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  margin-right: 10px;
+}
+.menu .menu__container .logo svg {
+  margin-right: 0.7vw;
+}
+.menu .menu__container .navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu .menu__container .navigation div {
+  margin-left: 40px;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+.menu .menu__container .navigation div svg {
+  fill: #fff;
+  transform: scale(0.7);
+}
+.menu .menu__container .navigation div:hover {
+  opacity: 0.7;
+}
+.menu .menu__container .navigation .country {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0 0 20px;
+}
+.menu .menu__container .navigation .country img {
+  width: 18px;
+  height: 18px;
+  display: block;
+  margin-right: 5px;
+}/*# sourceMappingURL=style.css.map */

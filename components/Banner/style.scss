@@ -1,0 +1,94 @@
+@import "../../viriables/style";
+.banner {
+  height: 100vh;
+  width: 100%;
+  background: $dark;
+  color: $light;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: calc(100% - $paddingPage);
+    .headline {
+      color: #fff;
+      font-size: 187px;
+      font-style: normal;
+      font-weight: 100;
+      line-height: 137px; /* 73.262% */
+      letter-spacing: 0.36px;
+      text-transform: uppercase;
+      margin: $margin 0;
+      text-align: center;
+      position: relative;
+      transition: all ease .3s;
+      strong{
+        position: relative;
+        z-index: 20;
+      }
+      .image_headline{
+        height: 600px;
+        width: 500px;
+        background: url(https://images.pexels.com/photos/5889715/pexels-photo-5889715.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) $dark;
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50% ,-50%);
+        opacity: 0;
+        transition: all ease .3s;
+      }
+      &:hover{
+        .image_headline{
+          opacity: 1;
+        }
+      }
+    }
+    .subheadline {
+      color: $textColor;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 18px; /* 150% */
+      letter-spacing: 5.2px;
+      text-transform: uppercase;position: relative;
+      z-index: 20;
+    }
+    button{
+      margin: 2vw 0;
+    }
+    .banner_resume {
+      color: #fff;
+      font-size:14px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 28px; /* 164.706% */
+      letter-spacing: 0.36px;
+      text-transform: uppercase;
+    }
+
+    .arrow_reveal{
+      position: absolute;
+      left: 13%;
+      .banner_arrow {
+        width: 108px;
+        height: 108px;
+        background: $textColor;
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 60%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+      }
+    }
+    
+
+  }
+}

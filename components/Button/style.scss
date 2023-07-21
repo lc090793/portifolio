@@ -1,0 +1,76 @@
+@import "../../viriables/style";
+.btn_default {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 333.95px;
+  height: 90px;
+  color: $light;
+  background: transparent;
+  transition: all ease 0.2s;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0 20px;
+  border-radius: 100px;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px; /* 190.909% */
+  text-transform: uppercase;
+  cursor: pointer;
+  span {
+    margin-right: 10px;
+  }
+  svg {
+    fill: $light;
+  }
+
+  &:hover {
+    background-color: $light;
+    color: $dark;
+    svg {
+      fill: $dark;
+    }
+  }
+}
+
+.light {
+  border: 1px solid #010101!important;
+  color: $dark;
+  background: transparent;
+  svg {
+    fill: $dark !important;
+  }
+  &:hover {
+    background-color: $dark;
+    color: $light;
+    svg {
+      fill: $light !important;
+    }
+  }
+}
+.secundary {
+  background: $color;
+  color: $light;
+  svg {
+    fill: $light !important;
+  }
+  &:hover {
+    background-color: $dark;
+    color: $light;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+  .btn_default {
+    border-radius: 2vw;
+    font-size: 3.5vw;
+    height: 10.5vw;
+  }
+}

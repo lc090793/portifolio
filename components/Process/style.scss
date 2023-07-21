@@ -1,0 +1,101 @@
+@import "../../viriables/style";
+.process {
+  min-height: 50vh;
+  height: auto;
+  width: 100%;
+  background: $dark;
+  color: $light;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5vw 0;
+  &__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100%;
+    width: calc(100% - $paddingPage);
+ 
+
+    .left_process {
+      width: 20%;
+      .headline {
+        color: #fff;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35.2px; /* 97.778% */
+        letter-spacing: -0.8px;
+        margin-bottom: 12vw;
+      }
+
+      .number_index{
+        color: #FFF;
+        font-size: 69px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 58px; /* 84.058% */
+        letter-spacing: 1.6px;
+      }
+    }
+
+    .right_process {
+      width: 80%;
+      .headline {
+        color: #fff;
+        font-size: 87px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 84.48px; /* 97.103% */
+        letter-spacing: -1.92px;
+        margin-bottom: 4vw;
+      }
+
+      .process_topics_container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        .topics {
+          width: 30%;
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          flex-direction: column;
+          .reveal{
+            color: rgba(255, 255, 255, 0.30);
+            div {
+              
+              text-align: center;
+              font-size: 26px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 42px; /* 161.538% */
+              margin-bottom: 2vw;
+
+            }
+            &:first-child{
+              color: #fff;
+          }
+          }
+
+        }
+        .answers {
+          width: 70%;
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+          flex-direction: column;
+          div {
+            color: #fff;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px; /* 175% */
+            letter-spacing: 0.36px;
+
+          }
+        }
+      }
+    }
+  }
+}

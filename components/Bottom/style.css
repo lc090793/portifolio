@@ -1,0 +1,29 @@
+.bottom {
+  min-height: 100px;
+  height: auto;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 9999;
+  bottom: 0;
+}
+.bottom__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: calc(100% - 11.71875vw);
+}
+.bottom__container .reveal div {
+  font-size: 12px;
+  color: #fff;
+}
+.bottom__container .reveal:last-child div {
+  text-transform: uppercase;
+  opacity: 0.6;
+  font-size: 8px;
+  font-weight: 300;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,40 @@
+@import "../../viriables/style";
+.bottom{
+    min-height: 100px;
+    height: auto;
+    width: 100%;
+    color: $light;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 9999;
+    bottom: 0;
+    &__container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+      width: calc(100% - $paddingPage);
+      .reveal{
+        div{
+            font-size: 12px;
+            color: $light;
+
+          }
+                  
+          &:last-child{
+            div{
+                text-transform: uppercase;
+                opacity: .6;
+                font-size: 8px;
+                font-weight: 300;
+                
+            }
+
+        }
+
+      }
+
+}
+}
