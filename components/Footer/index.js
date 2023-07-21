@@ -18,13 +18,13 @@ function Footer() {
         <Reveal
           component={
             <div className="subheadline">
-              I'm currently available for freelance worldwide. Feel free to
+              I&apos;m currently available for freelance worldwide. Feel free to
               contact me if you want to collaborate on future projects or have a
               little chat.
             </div>
           }
         />
-        <Button secundary="light" text="Let's connect w/ Me" />
+        <Button secundary="light" text="Let&apos;s connect w/ Me" />
 
         <Reveal
           component={

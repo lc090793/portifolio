@@ -33,8 +33,8 @@ function Process() {
               <Reveal
                 component={
                   <div>
-                    Let's roll up our sleeves and dive deep into the exciting
-                    world of product creation! I'll take a close look at the
+                    Let&apos;s roll up our sleeves and dive deep into the exciting
+                    world of product creation! I&apos;ll take a close look at the
                     brand, competitors, market values, and product goals to
                     gather all the juicy details we need to make something
                     amazing.

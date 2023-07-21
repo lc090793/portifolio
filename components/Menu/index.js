@@ -36,7 +36,7 @@ function Menu() {
             delay=".6"
             component={
               <div>
-                LET'S CONNECT W/ ME
+                LET&apos;S CONNECT W/ ME
                 <svg
                   width="15"
                   height="14"
