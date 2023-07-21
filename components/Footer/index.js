@@ -24,7 +24,7 @@ function Footer() {
             </div>
           }
         />
-        <Button secundary="light" text="Let’s connect w/ Me" />
+        <Button secundary="light" text="Let's connect w/ Me" />
 
         <Reveal
           component={

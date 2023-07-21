@@ -3,7 +3,7 @@ import React from "react";
 import "./style.css";
 import Reveal from "../Reveal";
 import Image from "next/image";
-import usa from "../../src/img/usa.svg";
+// import usa from "../../src/img/usa.svg";
 import br from "../../src/img/br.png";
 import Link from "next/link";
 
@@ -28,7 +28,6 @@ function Menu() {
             delay=".5"
             component={
               <div>
-                {" "}
                 <Link href="/cv"> CV</Link>
               </div>
             }
