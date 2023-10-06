@@ -14,12 +14,23 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+      flex-direction: row-reverse;
       height: 100%;
       width: calc(100% - $paddingPage);
       .reveal{
         div{
             font-size: 12px;
             color: $light;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .tel{
+              height: 10px;
+              width: 10px;
+              border-radius: 30px;
+              margin-right: 5px;
+              background: $color;
+            }
 
           }
                   

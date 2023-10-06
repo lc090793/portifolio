@@ -1,6 +1,6 @@
 @import "../../viriables/style";
 .works {
-  height: 100vh;
+  height: 70vh;
   width: 100%;
   background: $dark;
   color: $light;
@@ -24,6 +24,7 @@
       font-weight: 400;
       line-height: 35.2px; /* 100.571% */
       letter-spacing: -0.8px;
+
     }
     .reveal {
       width: 100%;

@@ -14,10 +14,10 @@
     align-items: center;
     justify-content: space-between;
     width: calc(100% - $paddingPage);
-    a{
+    a {
       display: flex;
       align-items: center;
-      justify-content: center; 
+      justify-content: center;
     }
     .logo {
       font-size: 12px;
@@ -28,19 +28,19 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      .initials{
+      .initials {
         height: 30px;
         width: 30px;
-        background: $light;
+        background: $color;
         border-radius: 30px;
         display: flex;
         align-items: center;
         justify-content: center;
-        color: $dark;
+        color: $light;
         margin-right: 10px;
       }
-      svg{
-        margin-right: .7vw;
+      svg {
+        margin-right: 0.7vw;
       }
     }
 
@@ -48,35 +48,50 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      div {
-        margin-left:40px;
-        color: #fff;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 14px;
-        transition: all ease .3s;
-        cursor: pointer;
-        svg {
+      .reveal {
+        width: auto;
+        div {
+          margin-left: 30px;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #fff;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 14px;
+          transition: all ease 0.3s;
+          cursor: pointer;
+          height: 100%;
+          svg {
             fill: $light;
-            transform: scale(.7);
+            transform: scale(0.7);
           }
-          &:hover{
-            opacity: .7;
+          &:hover {
+            opacity: 0.7;
           }
+        }
+        &:nth-last-child(2) {
+          width: auto;
+        }
       }
-      .country{
+
+      .country {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin:0px 0 0 20px;
-        img{
+        margin: 0px 0 0 20px;
+        img {
           width: 18px;
           height: 18px;
           display: block;
           margin-right: 5px;
         }
       }
+    }
+    .active{
+      font-weight: 900!important;
     }
   }
 }

@@ -14,12 +14,23 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: row-reverse;
   height: 100%;
   width: calc(100% - 11.71875vw);
 }
 .bottom__container .reveal div {
   font-size: 12px;
   color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bottom__container .reveal div .tel {
+  height: 10px;
+  width: 10px;
+  border-radius: 30px;
+  margin-right: 5px;
+  background: #6A6A6A;
 }
 .bottom__container .reveal:last-child div {
   text-transform: uppercase;

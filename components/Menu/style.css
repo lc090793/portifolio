@@ -33,12 +33,12 @@
 .menu .menu__container .logo .initials {
   height: 30px;
   width: 30px;
-  background: #fff;
+  background: #6A6A6A;
   border-radius: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #000;
+  color: #fff;
   margin-right: 10px;
 }
 .menu .menu__container .logo svg {
@@ -49,8 +49,15 @@
   align-items: center;
   justify-content: center;
 }
-.menu .menu__container .navigation div {
-  margin-left: 40px;
+.menu .menu__container .navigation .reveal {
+  width: auto;
+}
+.menu .menu__container .navigation .reveal div {
+  margin-left: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #fff;
   font-size: 14px;
   font-style: normal;
@@ -58,13 +65,17 @@
   line-height: 14px;
   transition: all ease 0.3s;
   cursor: pointer;
+  height: 100%;
 }
-.menu .menu__container .navigation div svg {
+.menu .menu__container .navigation .reveal div svg {
   fill: #fff;
   transform: scale(0.7);
 }
-.menu .menu__container .navigation div:hover {
+.menu .menu__container .navigation .reveal div:hover {
   opacity: 0.7;
+}
+.menu .menu__container .navigation .reveal:nth-last-child(2) {
+  width: auto;
 }
 .menu .menu__container .navigation .country {
   display: flex;
@@ -77,4 +88,7 @@
   height: 18px;
   display: block;
   margin-right: 5px;
+}
+.menu .menu__container .active {
+  font-weight: 900 !important;
 }/*# sourceMappingURL=style.css.map */

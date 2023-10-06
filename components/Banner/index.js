@@ -2,8 +2,6 @@ import React from "react";
 import Button from "@/components/Button";
 import "./style.css";
 import Reveal from "../Reveal";
-// import Image from "next/image";
-// import user from ''
 
 function Banner() {
   return (
@@ -39,16 +37,16 @@ function Banner() {
                 <path
                   d="M2.25 37L37.25 2"
                   stroke="white"
-                  stroke-width="3"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M9.00439 2H37.25V30.2456"
                   stroke="white"
-                  stroke-width="3"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </div>

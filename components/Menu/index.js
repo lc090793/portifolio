@@ -1,13 +1,14 @@
+"use client"
 import React from "react";
-
 import "./style.css";
 import Reveal from "../Reveal";
 import Image from "next/image";
-// import usa from "../../src/img/usa.svg";
 import br from "../../src/img/br.png";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 function Menu() {
+  const pathname = usePathname();
   return (
     <div className="menu">
       <div className="menu__container">
@@ -21,20 +22,10 @@ function Menu() {
           </Link>
         </div>
         <div className="navigation">
-          <Reveal delay=".2" component={<div>About</div>} />
-          <Reveal delay=".3" component={<div>Works</div>} />
-          <Reveal delay=".4" component={<div>Process</div>} />
-          <Reveal
-            delay=".5"
-            component={
-              <div>
-                <Link href="/cv"> CV</Link>
-              </div>
-            }
-          />
-          <Reveal
-            delay=".6"
-            component={
+        <Link href="/"><Reveal delay=".2" component={<div className={pathname === '/' ? 'active' : ''}>Home</div>} /></Link>
+          <Link href="/blog"><Reveal delay=".3" component={<div className={pathname === '/blog' ? 'active' : ''}> Blog</div>}/></Link>
+          <Link href="/cv"><Reveal delay=".4" component={<div className={pathname === '/cv' ? 'active' : ''}> Resume</div>}/></Link>
+          <Reveal delay=".5" component={
               <div>
                 LET&apos;S CONNECT W/ ME
                 <svg
@@ -44,8 +35,8 @@ function Menu() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M14.1503 13.552V0.998382V0.550049H13.7023H1.15833L1.15834 1.44672H12.6213L0.841797 13.2349L1.47536 13.869L13.2543 2.08122V13.552H14.1503Z"
                   />
                 </svg>

@@ -52,28 +52,6 @@ function Works() {
             </div>
           }
         />
-
-        <Reveal
-          component={
-            <div className="works_row">
-              <div className="works_title">Indigency - Agency Website</div>
-              <div className="works_tech">
-                MOBILE & WEB Design, Branding, Interaction Design
-              </div>
-            </div>
-          }
-        />
-
-        <Reveal
-          component={
-            <div className="works_row">
-              <div className="works_title">Eneftee - NFT Launchpad Website</div>
-              <div className="works_tech">
-                MOBILE & WEB Design, Branding, Interaction Design
-              </div>
-            </div>
-          }
-        />
       </div>
     </div>
   );
