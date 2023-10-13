@@ -15,7 +15,7 @@ async function blog() {
           <div className="blog__container">
             {posts.map((p, index) => {
               return (
-                <Link href={`/blog/${p.post_id}`}>
+                <Link key={index} href={`/blog/${p.post_id}`}>
                   <Reveal
                     component={
                       <div className="blog_post" key={index}>
