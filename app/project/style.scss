@@ -1,0 +1,17 @@
+@import '../../viriables/style';
+.project_wrapper{
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+    background: $dark;
+    padding: 50px 0 100px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    color: $light;
+    .title_project{
+        margin: 50px 0;
+    }
+
+}

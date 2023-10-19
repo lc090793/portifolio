@@ -23,11 +23,11 @@ import mongo from "@/src/img/skills logo/mongodb-ar21 1.svg";
 import prisma from "@/src/img/skills logo/prisma 1.svg";
 import Reveal from "../Reveal";
 
-function Skills() {
+function Skills(props) {
   return (
     <div className="skills">
       <div className="skills__container">
-      <Reveal delay=".1" component={ <div className="headline">Works with 30+ Frameworks</div>}/>
+      <Reveal delay=".1" component={ <div className="headline">{props.title || 'Works with 30+ Framework'}s</div>}/>
 
         <div className="skills_logo_container">
            <Reveal delay=".1" component={<Image src={js} alt="skills" />}/>

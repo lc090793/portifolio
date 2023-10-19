@@ -1,5 +1,6 @@
 .works {
-  height: 70vh;
+  min-height: 70vh;
+  height: auto;
   width: 100%;
   background: #000;
   color: #fff;
@@ -19,11 +20,11 @@
 .works__container .headline {
   margin-bottom: 3vw;
   color: #fff;
-  font-size: 35px;
+  font-size: 2.2786458333vw;
   font-style: normal;
   font-weight: 400;
-  line-height: 35.2px; /* 100.571% */
-  letter-spacing: -0.8px;
+  line-height: 2.2916666667vw;
+  letter-spacing: -0.0520833333vw;
 }
 .works__container .reveal {
   width: 100%;
@@ -42,11 +43,11 @@
   border-top: 1px solid #222;
 }
 .works__container .reveal .works_row .works_title {
-  font-size: 58px;
+  font-size: 3.7760416667vw;
   font-style: normal;
   font-weight: 400;
-  line-height: 56.32px; /* 97.103% */
-  letter-spacing: -1.28px;
+  line-height: 3.6666666667vw;
+  letter-spacing: -0.0833333333vw;
 }
 .works__container .reveal .works_row .works_tech {
   color: rgba(255, 255, 255, 0.8);
